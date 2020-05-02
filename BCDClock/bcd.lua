@@ -8,8 +8,8 @@
 require 'cairo'
 
 led_colours = {
-    on = {1, 1, 1, 0.15},
-    off = {0, 0, 0, 0.1},
+    on = {1, 1, 1, 0.5},
+    off = {0, 0, 0, 0.5},
 }
 
 leds = {
@@ -87,7 +87,7 @@ end
 function render(display)
 
     local time_str = ''
-    local position = { x = 290, y = nil, }
+    local position = { x = 250, y = nil, }
     local led_state = 'off'
     local current_time = create_time_table()
 

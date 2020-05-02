@@ -26,9 +26,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
 conky.config = {
-    alignment = 'top_right',
+    alignment = 'top_left',
     background = true,
-    gap_x = 50,
+    gap_x = 70,
     gap_y = 150,
     default_color = 'white',
     draw_borders = false,
@@ -46,7 +46,7 @@ conky.config = {
     minimum_width = 500
 }
 conky.text = [[
-${alignr}${font bold:size=24}${voffset 48}${font :italic:size=24}fucking${font :book:size=24} yay, its ${font bold:size=64}${voffset -48}${time %A}
+${alignr}${font bold:size=24}${voffset 48}${font :italic:size=24}its fuckin' ${font bold:size=64}${voffset -48}${time %A}
 ${alignr}${offset -60}${voffset -78}${font 'DejaVu Sans':bold}${time %d}${font} ${time %B} ${font 'DejaVu Sans':bold}${time %Y}
 ${voffset 20}${font size=36} ${font}
 ]]

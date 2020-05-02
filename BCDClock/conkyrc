@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
 conky.config = {
-    alignment = 'top_right',
+    alignment = 'top_left',
     double_buffer = true,
     background = true,
     gap_x = 70,
@@ -43,8 +43,8 @@ conky.config = {
     own_window_hints = 'undecorated,sticky,skip_taskbar,skip_pager,below',
     own_window_argb_visual = true,
     own_window_transparent = true,
-    maximum_width = 300,
-    minimum_width = 300,
+    maximum_width = 260,
+    minimum_width = 260,
     minimum_height = 200,
     update_interval = 1,
     lua_load = '~/.conky/BCDClock/bcd.lua',
@@ -52,5 +52,5 @@ conky.config = {
 }
 
 conky.text = [[
-${voffset 180}${alignr}KK BCD Clock: ${time %T}
+${voffset 170}${alignr}KK BCD Clock: ${time %T}
 ]]
