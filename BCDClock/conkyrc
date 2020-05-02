@@ -48,9 +48,9 @@ conky.config = {
     minimum_height = 200,
     update_interval = 1,
     lua_load = '~/.conky/BCDClock/bcd.lua',
-    lua_draw_hook_post = 'main',
+    lua_draw_hook_pre = 'main',
 }
 
 conky.text = [[
-${voffset 180}${alignr}BCD Clock: ${time %T}
+${voffset 180}${alignr}KK BCD Clock: ${time %T}
 ]]

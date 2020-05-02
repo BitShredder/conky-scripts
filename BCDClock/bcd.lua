@@ -3,6 +3,8 @@
 --
 -- Binary Coded Decimal Clock for Conky
 -- 
+-------------------------------------------
+
 require 'cairo'
 
 led_colours = {
@@ -30,8 +32,8 @@ function draw_led(display, position, state)
     local led_radius = 15
     local stroke_width = 2
 
-    --cairo_arc(display, x, y, led_radius, 0, 2 * math.pi)
     cairo_rectangle(display, x-15, y-15, 30, 30)
+
     cairo_set_source_rgba(display, unpack(led_colours[state]))
     cairo_set_line_width(display, stroke_width)
     cairo_fill_preserve(display)
@@ -99,6 +101,7 @@ function render(display)
             position['x'] = position['x'] - 15
         end
     end
+
 end
 
 -------------------------------------------
