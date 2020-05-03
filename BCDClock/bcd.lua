@@ -8,8 +8,8 @@
 require 'cairo'
 
 led_colours = {
-    on = {1, 1, 1, 0.5},
-    off = {0, 0, 0, 0.5},
+    on = {1, 1, 1, 0.75},
+    off = {0, 0, 0, 0.75},
 }
 
 leds = {
