@@ -5,7 +5,10 @@ A set of scripts for Conky, the system monitoring tool for X.
 Conky provides desktop display of system monitoring; this package is a collection of scripts that provide graphical enhancements for your desktop. Each script can be configured seperately and one or
 more can be run simultaneously.
 
-**This package does not include Conky, it is only a collection of scripts that run with Conky. You must have Conly installed before these scripts will run.**
+**This package does not include Conky, it is only a collection of scripts that run with Conky. You must have Conky installed before these scripts will run.**
+
+## Screenshot
+![alt text](screenshot.png "Screenshot")
 
 ## Configuration
 Each **KK Conky Script** comes with a ``conkyrc`` file which can be tailored for your requirements. You are encouraged to play around with the settings in the ``conkyrc`` files, but it advised you do not edit
