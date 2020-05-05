@@ -46,6 +46,6 @@ conky.config = {
     minimum_height = 120
 }
 conky.text = [[
-${alignr}${voffset 48}${font 'Deja Vu':italic:size=24}its fuckin' ${font 'Deja Vu':bold:size=64}${voffset -48}${time %A}
+${alignr}${voffset 48}${font 'Deja Vu':italic:size=24}its ${font 'Deja Vu':bold:size=64}${voffset -48}${time %A}
 ${alignr}${offset -62}${voffset -80}${font 'Deja Vu':bold}${time %d} ${time %B} ${font 'Deja Vu':medium}${time %Y}
 ]]

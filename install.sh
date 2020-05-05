@@ -7,7 +7,7 @@ CONKY="$(which conky)"
 INSTALLDIR=/home/${USER}/.conky
 INITSCRIPT=/usr/local/bin/kk-conky-init.sh
 
-WIDGETS[1]="Fuckin' Calendar (A display of the current fuckin' day, month and year)"
+WIDGETS[1]="Calendar (A display of the current day, month and year)"
 WIDGETS[2]="BCD Clock (A binary coded decimal clock)"
 WIDGETS[3]="OS Badge (Display your distro name and logo)"
 
